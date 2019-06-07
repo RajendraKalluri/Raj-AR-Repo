@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RajProduct</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RajProducts</value>
+    </caseValues>
+    <fields>
+        <label><!-- RajProductApprovalStatus --></label>
+        <name>RajProductApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recall</masterLabel>
+            <translation><!-- Recall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RajProductCity --></label>
+        <name>RajProductCity__c</name>
+        <picklistValues>
+            <masterLabel>Banglore</masterLabel>
+            <translation><!-- Banglore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyderabad</masterLabel>
+            <translation><!-- Hyderabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaipur</masterLabel>
+            <translation><!-- Jaipur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pune</masterLabel>
+            <translation><!-- Pune --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RajProductCost --></label>
+        <name>RajProductCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- RajProductName --></label>
+        <name>RajProductName__c</name>
+    </fields>
+    <layouts>
+        <layout>RajProductPageLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- RajReleaseNotes --></label>
+        <name>RajReleaseNotes</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RajShop</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RajShops</value>
+    </caseValues>
+    <fields>
+        <label><!-- RajShopAddress --></label>
+        <name>RajShopAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- RajShopItems --></label>
+        <name>RajShopItems__c</name>
+        <picklistValues>
+            <masterLabel>Belt</masterLabel>
+            <translation><!-- Belt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shoe</masterLabel>
+            <translation><!-- Shoe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tie</masterLabel>
+            <translation><!-- Tie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tshirt</masterLabel>
+            <translation><!-- Tshirt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallet</masterLabel>
+            <translation><!-- Wallet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RajShopName --></label>
+        <name>RajShopName__c</name>
+    </fields>
+    <layouts>
+        <layout>RajShopPageLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- RajShopRecordType1 --></description>
+        <label><!-- RajShopRecordType1 --></label>
+        <name>RajShopRecordType1</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- RajShopReadOnlyRecordType --></description>
+        <label><!-- RajShopReadOnlyRecordType --></label>
+        <name>RajShopRecordTypeRajShopReadOnlyRecordType</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

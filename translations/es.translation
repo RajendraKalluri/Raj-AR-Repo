@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowDefinitions>
+        <flows>
+            <fullName>RajAccountAddressModifyProcess-1</fullName>
+        </flows>
+        <fullName>RajAccountAddressModifyProcess</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>RajAccountCreateProcess-1</fullName>
+        </flows>
+        <fullName>RajAccountCreateProcess</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>RajHighPriorityCaseProcess-3</fullName>
+        </flows>
+        <fullName>RajHighPriorityCaseProcess</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>RajProductProcess-1</fullName>
+        </flows>
+        <fullName>RajProductProcess</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>RajScreenFlow-1</fullName>
+            <screens>
+                <fields>
+                    <name>Raj_Record_Created</name>
+                </fields>
+                <name>RajProductCreated</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>welcomeText</name>
+                </fields>
+                <name>RajWelcome</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>RajProduct</name>
+                </fields>
+                <name>RajEnterDetails</name>
+            </screens>
+        </flows>
+        <fullName>RajScreenFlow</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- RajendraCaseReportType --></description>
+        <label><!-- RajendraCaseReportType --></label>
+        <name>RajendraCaseReportType</name>
+        <sections>
+            <label><!-- RajendraAppBugs --></label>
+            <name>RajendraAppBugs</name>
+        </sections>
+        <sections>
+            <label><!-- RajendraCases --></label>
+            <name>RajendraCases</name>
+        </sections>
+    </reportTypes>
+</Translations>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RajBuilding</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RajBuildings</value>
+    </caseValues>
+    <fields>
+        <label><!-- RajBuildingArea --></label>
+        <name>RajBuildingArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- RajBuildingCity --></label>
+        <name>RajBuildingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- RajBuildingRating --></label>
+        <name>RajBuildingRating__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

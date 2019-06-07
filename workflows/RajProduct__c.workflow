@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>RajProductFieldUpdate</fullName>
+        <description>RajProductFieldUpdate</description>
+        <field>RajProductApprovalStatus__c</field>
+        <literalValue>Approved</literalValue>
+        <name>RajProductFieldUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>RajProductFieldUpdate1</fullName>
+        <description>RajProductFieldUpdate1</description>
+        <field>RajProductApprovalStatus__c</field>
+        <literalValue>Submitted</literalValue>
+        <name>RajProductFieldUpdate1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>RajProductRejectFieldUpdate</fullName>
+        <description>RajProductRejectFieldUpdate</description>
+        <field>RajProductApprovalStatus__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>RajProductRejectFieldUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+</Workflow>

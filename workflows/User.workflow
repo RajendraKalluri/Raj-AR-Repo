@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>RajNewUserCreated1</fullName>
+        <description>RajNewUserCreated1</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>rajendra.kvsr@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/RajNewUserEmailTemplate</template>
+    </alerts>
+    <rules>
+        <fullName>RajendraUserCreatedWFRule</fullName>
+        <actions>
+            <name>RajNewUserCreated1</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>User.Email</field>
+            <operation>equals</operation>
+            <value>rajendra.kvsr@gmail.com</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>RajendraUserCreatedWFRule</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

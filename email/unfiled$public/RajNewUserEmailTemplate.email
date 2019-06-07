@@ -1,0 +1,6 @@
+Hey New User Created - {!User.Email}
+
+Country : {!User.Country}
+
+Regards,
+Rajendra

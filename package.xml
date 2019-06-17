@@ -535,6 +535,8 @@
         <members>Opportunity.Description</members>
         <members>Opportunity.Discount__c</members>
         <members>Opportunity.ExpectedRevenue</members>
+        <members>Opportunity.ForecastCategory</members>
+        <members>Opportunity.ForecastCategoryName</members>
         <members>Opportunity.IqScore</members>
         <members>Opportunity.IsPrivate</members>
         <members>Opportunity.LeadSource</members>

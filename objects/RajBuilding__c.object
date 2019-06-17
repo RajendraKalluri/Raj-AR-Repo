@@ -47,7 +47,6 @@
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
-    <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
@@ -98,5 +97,89 @@
     <pluralLabel>RajBuildings</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>RajRule1</fullName>
+        <active>false</active>
+        <description>RajRule1</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>User should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule10</fullName>
+        <active>false</active>
+        <description>RajRule10</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule11</fullName>
+        <active>false</active>
+        <description>RajRule11</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule12</fullName>
+        <active>false</active>
+        <description>RajRule12</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule2</fullName>
+        <active>false</active>
+        <description>RajRule2</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>User should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule3</fullName>
+        <active>false</active>
+        <description>RajRule3</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule4</fullName>
+        <active>false</active>
+        <description>RajRule4</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule5</fullName>
+        <active>false</active>
+        <description>RajRule5</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule6</fullName>
+        <active>false</active>
+        <description>RajRule6</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule7</fullName>
+        <active>false</active>
+        <description>RajRule7</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule8</fullName>
+        <active>false</active>
+        <description>RajRule8</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RajRule9</fullName>
+        <active>false</active>
+        <description>RajRule9</description>
+        <errorConditionFormula>NOT($User.IsActive)</errorConditionFormula>
+        <errorMessage>user should be active</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

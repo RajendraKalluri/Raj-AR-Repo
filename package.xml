@@ -6,15 +6,37 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>MyHomeRocks__c.Aadhar_Number__c</members>
+        <members>MyHomeRocks__c.Current_Address__c</members>
+        <members>MyHomeRocks__c.Discount_Available__c</members>
+        <members>MyHomeRocks__c.Discount_Type__c</members>
+        <members>MyHomeRocks__c.Discounted_Amount__c</members>
+        <members>MyHomeRocks__c.Email__c</members>
+        <members>MyHomeRocks__c.FHName__c</members>
+        <members>MyHomeRocks__c.FirstName__c</members>
+        <members>MyHomeRocks__c.Floor__c</members>
+        <members>MyHomeRocks__c.Gender__c</members>
+        <members>MyHomeRocks__c.House_Facing__c</members>
+        <members>MyHomeRocks__c.Interested_In__c</members>
+        <members>MyHomeRocks__c.LastName__c</members>
+        <members>MyHomeRocks__c.Lead_Source__c</members>
+        <members>MyHomeRocks__c.Lead_Status__c</members>
+        <members>MyHomeRocks__c.PAN_Number__c</members>
+        <members>MyHomeRocks__c.Phone_Number__c</members>
+        <members>MyHomeRocks__c.Profession__c</members>
+        <members>MyHomeRocks__c.Total_Price__c</members>
+        <members>MyHomeRocks__c.Unit_Price__c</members>
         <members>RajBuilding__c.RajBuildingCity__c</members>
         <members>RajBuilding__c.RajBuildingRating__c</members>
         <name>CustomField</name>
     </types>
     <types>
+        <members>MyHomeRocks__c</members>
         <members>RajBuilding__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>MyHomeRocks__c.All</members>
         <members>RajBuilding__c.All</members>
         <name>ListView</name>
     </types>
